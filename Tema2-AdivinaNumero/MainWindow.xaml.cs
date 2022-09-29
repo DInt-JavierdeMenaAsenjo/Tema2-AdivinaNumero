@@ -20,7 +20,7 @@ namespace Tema2_AdivinaNumero
     /// </summary>
     public partial class MainWindow : Window
     {
-        public int numeroAleatorio;
+        private int numeroAleatorio;
         public MainWindow()
         {
             InitializeComponent();
